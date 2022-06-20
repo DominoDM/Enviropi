@@ -200,4 +200,5 @@ try:
 
 # Exit cleanly
 except KeyboardInterrupt:
+    st7735.set_backlight(0)
     sys.exit(0)
